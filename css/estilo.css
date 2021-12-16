@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+	background-color: #F9F9F9;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.nameblue {
+	color: blue;
+	font-weight: bold;
+}
+
+.namegreen {
+	color: green;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+p {
+  margin: 0;
+  text-indent: 3ch;
+}
+
+table, th, td{
+	border: solid 0.5px;
+	margin: 0 auto;
+}
+
+table{
+	border-collapse: collapse;
+	margin-bottom: 50px;
+	background-color: white;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+th{	
+	padding: 10px;
+	background-color: #DCDCDC;
+	border-top-color: #DCDCDC; 
+	font-size: 13px;
+	border-left-color: #DCDCDC;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+td{
+	padding: 10px;
+	font-size: 13px;
+	border-color: white;
+}
+
+tr:nth-child(even){
+	background: #F9F9F9;
+}
+
+div.div1{
+	border-radius: 5px;
+	margin-right: 6.5%;
+	margin-left: 6.5%;
+	font-family: 'Poppins';
+	font-size: 13px;
+	background-color: #DCDCDC;
+	border: none;
+}
+
+div.div2{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+a {
+   color: #000;
+   text-decoration: none;
+}
+/* link que foi visitado */
+a:visited {
+    color: #555;
+}
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+    color: #999;
+}
+/* quando o link for selecionado */
+a:active {
+    color: #333;
+}
